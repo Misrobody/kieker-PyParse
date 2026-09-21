@@ -20,7 +20,8 @@ A static Python code parser that generates static analysis information for the K
 This repository contains the original PyParse code. The actively maintained version is available here: https://github.com/kieker-monitoring/pyparse
 
 ## Author
-Daphné Larrivain <daphne.larrivain@ecole.ensicaen.fr>
+
+Built by the person behind this GitHub profile.
 
 ## Outputs
 
