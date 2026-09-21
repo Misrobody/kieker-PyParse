@@ -15,24 +15,16 @@ https://github.com/kieker-monitoring/pyparse
 
 ## About
 
-A static Python code parser that generates static analysis information for the
-Kieker [SAR (Static Architecture
-Recovery)](https://github.com/kieker-monitoring/kieker/tree/main/tools/sar)
-tool. The combination of Kieker fxca (FXTran Code Analysis) tool and the
-[fxtran](https://github.com/pmarguinaud/fxtran) tool are a complementary
-counterpart of Pyparse for the Fortran language. The tool is actively
-maintained by developers from the Kieker developers group and communities.
+A static Python code parser that generates static analysis information for the Kieker [SAR (Static Architecture Recovery)](https://github.com/kieker-monitoring/kieker/tree/main/tools/sar) tool. The combination of Kieker fxca (FXTran Code Analysis) tool and the [fxtran](https://github.com/pmarguinaud/fxtran) tool are a complementary counterpart of Pyparse for the Fortran language. This tool is part of a larger static‑and‑dynamic analysis visualization pipeline described in the following paper (link). It was developed specifically for that project.
+
+This repository contains the original PyParse code. The actively maintained version is available here: https://github.com/kieker-monitoring/pyparse
 
 ## Author
 Daphné Larrivain <daphne.larrivain@ecole.ensicaen.fr>
 
 ## Outputs
 
-It uses Python's built-in `ast` module to get the abstract syntax tree (AST) of
-the target program, and produces static information required by SAR.  Pyparse
-generates the following files on function calls and data flow. See
-[CsvExporter.py](https://github.com/kieker-monitoring/pyparse/blob/main/src/pyparse/CsvExporter.py)
-for more details.
+It uses Python's built-in `ast` module to get the abstract syntax tree (AST) of the target program, and produces static information required by SAR.  Pyparse generates the following files on function calls and data flow. See [CsvExporter.py](https://github.com/kieker-monitoring/pyparse/blob/main/src/pyparse/CsvExporter.py) for more details.
 
 ```
 operation_definitions.csv
