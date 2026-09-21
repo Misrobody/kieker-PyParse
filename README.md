@@ -2,7 +2,7 @@
   
 # ⚠️ Important Notice
 
-## This repository contains the original pyparse code.<br>
+## This repository contains the original PyParse code.<br>
 
 The actively maintained repository is available here:<br>
 https://github.com/kieker-monitoring/pyparse
